@@ -1,0 +1,41 @@
+{
+  "id": "house-rules-5e",
+  "title": "House Rules 5e",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "flags": {
+    "canUpload": true
+  },
+  "esmodules": [
+    "rules.js"
+  ],
+ "packs": [
+    {
+      "label": "Books",
+      "name": "books",
+      "type": "JournalEntry",
+      "path": "packs/books",
+      "system": "dnd5e",
+      "package": "house-rules-5e",
+      "visible": true,
+      "flags": {
+        "dnd5e": {
+          "display": "table-of-contents"
+        }
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "House Rules 5E",
+      "sorting": "a",
+      "color": "#5081D4",
+      "packs": [
+        "books"
+      ]
+    }
+  ]
+}
